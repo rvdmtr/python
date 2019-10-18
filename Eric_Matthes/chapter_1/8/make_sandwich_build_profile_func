@@ -1,0 +1,7 @@
+def make_sandwich(*components):
+	"""Функция получает список компонентов и выводит их описание"""
+	print('\nMake sandwiche with following components: ')
+	for component in components:
+		print('\t- ' + component)
+
+		
